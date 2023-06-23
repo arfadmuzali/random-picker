@@ -1,0 +1,76 @@
+/* 
+    hitam #262533
+    putih #fff
+    abu #8f8f8f
+    kuning #f9cc41
+ */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+}
+body {
+  background-color: #262533;
+  font-family: "Roboto";
+}
+.navbar {
+  background-color: #f9cc41;
+}
+.navbar-logo {
+  padding: 10px 2%;
+  color: #262533;
+  font-size: 23px;
+  border-bottom: 2px solid #6e5a1c;
+}
+span {
+  color: #8f8f8f;
+}
+.container-input {
+  margin: 16px 78px;
+}
+#input {
+  height: 40px;
+  background-color: #8f8f8f;
+  font-size: 23px;
+  text-align: center;
+  border-radius: 3px;
+  color: #262533;
+  border: 1px solid #6e5a1c;
+}
+.container-button {
+  margin: 0px 78px;
+  display: flex;
+  gap: 25px;
+}
+#btn-input {
+  height: 30px;
+  width: 84px;
+  background-color: #8f8f8f;
+  color: #fff;
+}
+#btn-delete {
+  height: 30px;
+  width: 84px;
+  background-color: #f9cc41;
+  color: #8f8f8f;
+}
+.container-kalimat {
+  height: 40px;
+  color: #fff;
+  margin: 20px;
+  font-size: 35px;
+}
+#btn-random {
+  height: 30px;
+  width: 84px;
+  background-color: #f9cc41;
+  color: #8f8f8f;
+}
+.container-hasil {
+  height: 40px;
+  color: #f9cc41;
+  font-size: 40px;
+  margin: 20px 38px;
+}
